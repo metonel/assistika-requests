@@ -22,8 +22,7 @@ export default () => {
     const { displayName, email } = getUser()
     details = (
       <p className="text-right px-5">
-        Logged in as {displayName} ({email}
-        )!
+        Logged in as {displayName} 
         {` `}
         <a href="/" onClick={event => { event.preventDefault(); logout(firebase).then(() => navigate(`/app/login`)) }}>
           <u>log out</u>
