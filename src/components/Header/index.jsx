@@ -4,9 +4,14 @@ import { Link } from "gatsby"
 const Header = () => (
   <nav class="w-full flex items-center justify-between bg-blue-700 p-6">
     <div class="items-center w-1/2 text-white mr-6 text-center">
-      <span class="font-semibold text-xl">Gatsby Firebase Auth</span>
+      {/* <span class="font-semibold text-xl">Assistika requests</span> */}
+      <Link to="/">
+        <a class="font-semibold text-xl">
+        Assistika requests
+        </a>
+      </Link>
     </div>
-    <div class="w-1/2 mt-1 text-md flex flex-row-reverse">
+    {/* <div class="w-1/2 mt-1 text-md flex flex-row-reverse">
       <Link to="/app/profile">
         <a class="block text-white hover:text-grey-500 mr-4">
           Profile
@@ -17,7 +22,7 @@ const Header = () => (
           Home
         </a>
       </Link>
-    </div>
+    </div> */}
   </nav>
 )
 

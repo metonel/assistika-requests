@@ -7,12 +7,12 @@ import Status from "../components/Status"
 const Index = () => (
   <Layout>
     <Status />
-    <View title="Firebase Authentication Starter">
+    <View title="Welcome to Assistica requests">
       <p>
-      👋 This is a simple demo of creating dynamic pages with Gatsby that require <b>user authentication</b> and using <b>Firebase</b> as authentication provider. 
+      Here you can make a custom inquiry specially tailored for your needs. 
       </p>  
       <br/>
-      <p>
+      {/* <p>
        📚 It uses concepts from the
         {` `}
         <a className="underline text-blue-500" href="https://www.gatsbyjs.org/docs/client-only-routes-and-user-authentication/">
@@ -24,10 +24,10 @@ const Index = () => (
         </a>
         {` `}
         tutorial in the official gatsby doc.
-      </p>
+      </p> */}
       <br/>
       <p>
-        This is the public home, and here it is a private route to start:  
+        Please login or create a profile:  
         <br/>
         <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline float-right" type="button">
           <Link to="/app/profile">Go to your profile</Link>
