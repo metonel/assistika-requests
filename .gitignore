@@ -58,6 +58,6 @@ public/
 # Bundle stats
 bundle-stats.json
 
-.history
-.env.*
-.env
+# .history
+# .env.*
+# .env
